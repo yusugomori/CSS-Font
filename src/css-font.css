@@ -1,0 +1,753 @@
+/*!
+ *
+ * CSS Font style
+ *
+ * @author: Yusuke Sugomori
+ * @license: http://yusugomori.com/license/gpl-3.0
+ *
+ */
+.css-font {
+  float: left;
+  width: 300px;
+  height: 300px;
+  font-size: 300px;
+}
+.css-font .A {
+  background-color: #000000;
+  position: relative;
+  top: 50%;
+  width: 40%;
+  height: 10%;
+  margin: auto;
+}
+.css-font .A:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  width: 30%;
+  height: 800%;
+  top: -400%;
+  left: -2%;
+  -webkit-transform: skew(-20deg, 0);
+  -moz-transform: skew(-20deg, 0);
+  -ms-transform: skew(-20deg, 0);
+  -o-transform: skew(-20deg, 0);
+  transform: skew(-20deg, 0);
+}
+.css-font .A:after {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  width: 30%;
+  height: 800%;
+  top: -400%;
+  left: 72%;
+  -webkit-transform: skew(20deg, 0);
+  -moz-transform: skew(20deg, 0);
+  -ms-transform: skew(20deg, 0);
+  -o-transform: skew(20deg, 0);
+  transform: skew(20deg, 0);
+}
+.css-font .B {
+  background-color: #000000;
+  position: relative;
+  top: 10%;
+  height: 80%;
+  width: 10%;
+  left: 23%;
+}
+.css-font .B:before {
+  background-color: transparent;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320%;
+  height: 30%;
+  -webkit-border-radius: 0 50% 50% 0;
+  -moz-border-radius: 0 50% 50% 0;
+  -ms-border-radius: 0 50% 50% 0;
+  -o-border-radius: 0 50% 50% 0;
+  border-radius: 0 50% 50% 0;
+  border: solid 0.1em #000000;
+}
+.css-font .B:after {
+  background-color: transparent;
+  content: ' ';
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 360%;
+  height: 30%;
+  -webkit-border-radius: 0 50% 50% 0;
+  -moz-border-radius: 0 50% 50% 0;
+  -ms-border-radius: 0 50% 50% 0;
+  -o-border-radius: 0 50% 50% 0;
+  border-radius: 0 50% 50% 0;
+  border: solid 0.1em #000000;
+}
+.css-font .C {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 16%;
+  width: 54%;
+  height: 60%;
+  -webkit-border-radius: 50% 0 0 50%;
+  -moz-border-radius: 50% 0 0 50%;
+  -ms-border-radius: 50% 0 0 50%;
+  -o-border-radius: 50% 0 0 50%;
+  border-radius: 50% 0 0 50%;
+  border-style: solid;
+  border-width: 0.1em 0 0.1em 0.1em;
+  border-color: #000000;
+}
+.css-font .D {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  width: 42%;
+  height: 60%;
+  -webkit-border-radius: 0 50% 50% 0;
+  -moz-border-radius: 0 50% 50% 0;
+  -ms-border-radius: 0 50% 50% 0;
+  -o-border-radius: 0 50% 50% 0;
+  border-radius: 0 50% 50% 0;
+  border: solid 0.1em #000000;
+}
+.css-font .E {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  height: 70%;
+  width: 50%;
+  border: solid 0.1em #000000;
+  border-width: 0.1em 0 0 0.1em;
+}
+.css-font .E:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 36%;
+  left: 0;
+  width: 100%;
+  height: 14%;
+}
+.css-font .E:after {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 14.3%;
+}
+.css-font .F {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  height: 70%;
+  width: 50%;
+  border: solid 0.1em #000000;
+  border-width: 0.1em 0 0 0.1em;
+}
+.css-font .F:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 36%;
+  left: 0;
+  width: 100%;
+  height: 14%;
+}
+.css-font .G {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 13%;
+  width: 54%;
+  height: 60%;
+  -webkit-border-radius: 50% 0 0 50%;
+  -moz-border-radius: 50% 0 0 50%;
+  -ms-border-radius: 50% 0 0 50%;
+  -o-border-radius: 50% 0 0 50%;
+  border-radius: 50% 0 0 50%;
+  border-style: solid;
+  border-width: 0.1em 0 0.1em 0.1em;
+  border-color: #000000;
+}
+.css-font .G:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  bottom: -16.5%;
+  right: -12%;
+  width: 20%;
+  height: 60%;
+}
+.css-font .G:after {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  bottom: 38%;
+  right: -12%;
+  width: 60%;
+  height: 18%;
+}
+.css-font .H {
+  background-color: #000000;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  width: 10%;
+  height: 80%;
+}
+.css-font .H:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 500%;
+  width: 100%;
+  height: 100%;
+}
+.css-font .H:after {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  width: 500%;
+  height: 14%;
+}
+.css-font .I {
+  background-color: #000000;
+  position: relative;
+  top: 10%;
+  width: 10%;
+  height: 80%;
+  margin: 0 auto;
+}
+.css-font .J {
+  background-color: transparent;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.css-font .J:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  width: 10%;
+  height: 60%;
+}
+.css-font .J:after {
+  background-color: transparent;
+  content: ' ';
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+  width: 40%;
+  height: 20%;
+  -webkit-border-radius: 0 0 50% 50%;
+  -moz-border-radius: 0 0 50% 50%;
+  -ms-border-radius: 0 0 50% 50%;
+  -o-border-radius: 0 0 50% 50%;
+  border-radius: 0 0 50% 50%;
+  border-style: solid;
+  border-width: 0 0.1em 0.1em 0.1em;
+  border-color: #000000;
+}
+.css-font .K {
+  background-color: #000000;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  width: 10%;
+  height: 80%;
+}
+.css-font .K:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 280%;
+  width: 120%;
+  height: 50%;
+  -webkit-transform: skew(-45deg, 0);
+  -moz-transform: skew(-45deg, 0);
+  -ms-transform: skew(-45deg, 0);
+  -o-transform: skew(-45deg, 0);
+  transform: skew(-45deg, 0);
+}
+.css-font .K:after {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  left: 280%;
+  width: 120%;
+  height: 50%;
+  -webkit-transform: skew(45deg, 0);
+  -moz-transform: skew(45deg, 0);
+  -ms-transform: skew(45deg, 0);
+  -o-transform: skew(45deg, 0);
+  transform: skew(45deg, 0);
+}
+.css-font .L {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  width: 50%;
+  height: 70%;
+  border-style: solid;
+  border-width: 0 0 0.1em 0.1em;
+  border-color: #000000;
+}
+.css-font .M {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 15%;
+  width: 50%;
+  height: 80%;
+  border-style: solid;
+  border-width: 0 0.1em 0 0.1em;
+  border-color: #000000;
+}
+.css-font .M:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 20%;
+  height: 100%;
+  -webkit-transform: skew(20deg, 0);
+  -moz-transform: skew(20deg, 0);
+  -ms-transform: skew(20deg, 0);
+  -o-transform: skew(20deg, 0);
+  transform: skew(20deg, 0);
+}
+.css-font .M:after {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 20%;
+  height: 100%;
+  -webkit-transform: skew(-20deg, 0);
+  -moz-transform: skew(-20deg, 0);
+  -ms-transform: skew(-20deg, 0);
+  -o-transform: skew(-20deg, 0);
+  transform: skew(-20deg, 0);
+}
+.css-font .N {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 18%;
+  width: 45%;
+  height: 80%;
+  border-style: solid;
+  border-width: 0 0.1em 0 0.1em;
+  border-color: #000000;
+}
+.css-font .N:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 40%;
+  width: 20%;
+  height: 100%;
+  -webkit-transform: skew(32deg, 0);
+  -moz-transform: skew(32deg, 0);
+  -ms-transform: skew(32deg, 0);
+  -o-transform: skew(32deg, 0);
+  transform: skew(32deg, 0);
+}
+.css-font .O {
+  background-color: transparent;
+  position: relative;
+  top: 8%;
+  left: 12%;
+  width: 55%;
+  height: 64%;
+  border: solid 0.1em #000000;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.css-font .P {
+  background-color: #000000;
+  position: relative;
+  top: 10%;
+  height: 80%;
+  width: 10%;
+  left: 23%;
+}
+.css-font .P:before {
+  background-color: transparent;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350%;
+  height: 35%;
+  -webkit-border-radius: 0 50% 50% 0;
+  -moz-border-radius: 0 50% 50% 0;
+  -ms-border-radius: 0 50% 50% 0;
+  -o-border-radius: 0 50% 50% 0;
+  border-radius: 0 50% 50% 0;
+  border: solid 0.1em #000000;
+}
+.css-font .Q {
+  background-color: transparent;
+  position: relative;
+  top: 8%;
+  left: 12%;
+  width: 55%;
+  height: 64%;
+  border: solid 0.1em #000000;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.css-font .Q:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  bottom: -15%;
+  right: 10%;
+  width: 20%;
+  height: 60%;
+  -webkit-transform: skew(40deg, 0);
+  -moz-transform: skew(40deg, 0);
+  -ms-transform: skew(40deg, 0);
+  -o-transform: skew(40deg, 0);
+  transform: skew(40deg, 0);
+}
+.css-font .R {
+  background-color: #000000;
+  position: relative;
+  top: 10%;
+  height: 80%;
+  width: 10%;
+  left: 23%;
+}
+.css-font .R:before {
+  background-color: transparent;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350%;
+  height: 35%;
+  -webkit-border-radius: 0 50% 50% 0;
+  -moz-border-radius: 0 50% 50% 0;
+  -ms-border-radius: 0 50% 50% 0;
+  -o-border-radius: 0 50% 50% 0;
+  border-radius: 0 50% 50% 0;
+  border: solid 0.1em #000000;
+}
+.css-font .R:after {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  left: 300%;
+  width: 120%;
+  height: 40%;
+  -webkit-transform: skew(45deg, 0);
+  -moz-transform: skew(45deg, 0);
+  -ms-transform: skew(45deg, 0);
+  -o-transform: skew(45deg, 0);
+  transform: skew(45deg, 0);
+}
+.css-font .S {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  width: 40%;
+  height: 20%;
+  -webkit-border-radius: 50% 50% 0 0;
+  -moz-border-radius: 50% 50% 0 0;
+  -ms-border-radius: 50% 50% 0 0;
+  -o-border-radius: 50% 50% 0 0;
+  border-radius: 50% 50% 0 0;
+  border-style: solid;
+  border-width: 0.1em 0.1em 0 0.1em;
+  border-color: #000000;
+}
+.css-font .S:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 98%;
+  left: 30%;
+  width: 40%;
+  height: 105%;
+  -webkit-transform: skew(70deg, 0);
+  -moz-transform: skew(70deg, 0);
+  -ms-transform: skew(70deg, 0);
+  -o-transform: skew(70deg, 0);
+  transform: skew(70deg, 0);
+  -webkit-border-radius: 50% 0 50% 0;
+  -moz-border-radius: 50% 0 50% 0;
+  -ms-border-radius: 50% 0 50% 0;
+  -o-border-radius: 50% 0 50% 0;
+  border-radius: 50% 0 50% 0;
+}
+.css-font .S:after {
+  background-color: transparent;
+  content: ' ';
+  position: absolute;
+  bottom: -250%;
+  right: -25%;
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 0 0 50% 50%;
+  -moz-border-radius: 0 0 50% 50%;
+  -ms-border-radius: 0 0 50% 50%;
+  -o-border-radius: 0 0 50% 50%;
+  border-radius: 0 0 50% 50%;
+  border-style: solid;
+  border-width: 0 0.1em 0.1em 0.1em;
+  border-color: #000000;
+}
+.css-font .T {
+  background-color: #000000;
+  position: relative;
+  top: 10%;
+  left: 15%;
+  width: 70%;
+  height: 10%;
+}
+.css-font .T:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 42.9%;
+  width: 14.2%;
+  height: 800%;
+  margin: 0 auto;
+}
+.css-font .U {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  width: 40%;
+  height: 60%;
+  border-style: solid;
+  border-width: 0 0.1em 0 0.1em;
+  border-color: #000000;
+}
+.css-font .U:before {
+  background-color: transparent;
+  content: ' ';
+  position: absolute;
+  bottom: -33%;
+  left: -25%;
+  width: 100%;
+  height: 40%;
+  -webkit-border-radius: 0 0 50% 50%;
+  -moz-border-radius: 0 0 50% 50%;
+  -ms-border-radius: 0 0 50% 50%;
+  -o-border-radius: 0 0 50% 50%;
+  border-radius: 0 0 50% 50%;
+  border-style: solid;
+  border-width: 0 0.1em 0.1em 0.1em;
+  border-color: #000000;
+}
+.css-font .V {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+.css-font .V:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 30%;
+  width: 10%;
+  height: 100%;
+  -webkit-transform: skew(20deg, 0);
+  -moz-transform: skew(20deg, 0);
+  -ms-transform: skew(20deg, 0);
+  -o-transform: skew(20deg, 0);
+  transform: skew(20deg, 0);
+}
+.css-font .V:after {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 30%;
+  width: 10%;
+  height: 100%;
+  -webkit-transform: skew(-20deg, 0);
+  -moz-transform: skew(-20deg, 0);
+  -ms-transform: skew(-20deg, 0);
+  -o-transform: skew(-20deg, 0);
+  transform: skew(-20deg, 0);
+}
+.css-font .W {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 15%;
+  width: 100%;
+  height: 80%;
+}
+.css-font .W:before {
+  background-color: transparent;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  border-style: solid;
+  border-width: 0 0.1em 0 0.1em;
+  border-color: #000000;
+  -webkit-transform: skew(14deg, 0);
+  -moz-transform: skew(14deg, 0);
+  -ms-transform: skew(14deg, 0);
+  -o-transform: skew(14deg, 0);
+  transform: skew(14deg, 0);
+}
+.css-font .W:after {
+  background-color: transparent;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: 30%;
+  height: 100%;
+  border-style: solid;
+  border-width: 0 0.1em 0 0.1em;
+  border-color: #000000;
+  -webkit-transform: skew(-14deg, 0);
+  -moz-transform: skew(-14deg, 0);
+  -ms-transform: skew(-14deg, 0);
+  -o-transform: skew(-14deg, 0);
+  transform: skew(-14deg, 0);
+}
+.css-font .X {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 0%;
+  width: 100%;
+  height: 80%;
+}
+.css-font .X:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 45%;
+  width: 10%;
+  height: 100%;
+  -webkit-transform: skew(36deg, 0);
+  -moz-transform: skew(36deg, 0);
+  -ms-transform: skew(36deg, 0);
+  -o-transform: skew(36deg, 0);
+  transform: skew(36deg, 0);
+}
+.css-font .X:after {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 45%;
+  width: 10%;
+  height: 100%;
+  -webkit-transform: skew(-36deg, 0);
+  -moz-transform: skew(-36deg, 0);
+  -ms-transform: skew(-36deg, 0);
+  -o-transform: skew(-36deg, 0);
+  transform: skew(-36deg, 0);
+}
+.css-font .Y {
+  background-color: #000000;
+  position: relative;
+  top: 50%;
+  width: 10%;
+  height: 40%;
+  margin: 0 auto;
+}
+.css-font .Y:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: -100%;
+  left: -145%;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: skew(36deg, 0);
+  -moz-transform: skew(36deg, 0);
+  -ms-transform: skew(36deg, 0);
+  -o-transform: skew(36deg, 0);
+  transform: skew(36deg, 0);
+}
+.css-font .Y:after {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: -100%;
+  left: 145%;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: skew(-36deg, 0);
+  -moz-transform: skew(-36deg, 0);
+  -ms-transform: skew(-36deg, 0);
+  -o-transform: skew(-36deg, 0);
+  transform: skew(-36deg, 0);
+}
+.css-font .Z {
+  background-color: transparent;
+  position: relative;
+  top: 10%;
+  left: 15%;
+  width: 70%;
+  height: 60%;
+  border-style: solid;
+  border-width: 0.1em 0 0.1em 0;
+  border-color: #000000;
+}
+.css-font .Z:before {
+  background-color: #000000;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 41%;
+  width: 18%;
+  height: 100%;
+  -webkit-transform: skew(-43.7deg, 0);
+  -moz-transform: skew(-43.7deg, 0);
+  -ms-transform: skew(-43.7deg, 0);
+  -o-transform: skew(-43.7deg, 0);
+  transform: skew(-43.7deg, 0);
+}
