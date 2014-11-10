@@ -31,6 +31,10 @@ Simply include `css-font.css` file in your html file.
 
 ```
 
+CSS Font is written in **Less**, so you can easily change color and size of the font by setting `@base-font-color` and `@base-font-size` in `css-font.less`.
+
+
+
 ## License
 GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
